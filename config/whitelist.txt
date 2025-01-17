@@ -2,3 +2,129 @@
 # 填写频道名称会直接保留该记录至最终结果，如：CCTV-1,接口地址，只填写接口地址则对所有频道生效，多条记录换行输入。
 # This is the whitelist of the interface or subscription source. The interface in the whitelist or the interface obtained by the subscription source will not participate in the speed measurement and will be prioritized in the result.
 # Filling in the channel name will directly retain the record to the final result, such as: CCTV-1,url, only fill in the interface address will be effective for all channels, multiple records newline input.
+凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
+凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk2
+CCTV-1,https://www.freetv.top/migu/608807420.m3u8?migutoken=5b04cf0d91179ab2d3d71703f0a8bc3d32dd02f7d8fb55ee70e05c216b8a9d1a73d911fbde798459fb66d94934157c996f8306c0dd37917775f2ed73dcc22cf84b25ca500bff5c636ff48d6344
+CCTV-1,http://z.b.bkpcp.top/m.php?id=cctv1
+CCTV-2,https://www.freetv.top/migu/631780532.m3u8?migutoken=11ecfe0a296dcd532df72244565e20008b5a2e6936c05e73d9c90abe54b5bbffc942f2912e3fdd518714c4a7ad984beed028d07db3d49b8d1e21c54686ebfa8546f79a57d969866753cca722cc
+CCTV-2,http://z.b.bkpcp.top/m.php?id=cctv2
+CCTV-3,https://www.freetv.top/migu/624878271.m3u8?migutoken=380a18fe8dc81109270780918e605114ca218bcfa395aaa8682b605d1622439ffe7981dbd10f378c9c045f872d48dce39babcb012c7362dc8b21835e88fde6457bacaa4082c74879d64ad7aee4
+CCTV-3,http://z.b.bkpcp.top/m.php?id=cctv3
+CCTV-4,https://www.freetv.top/migu/608807416.m3u8?migutoken=94d24df192f212e52d7c222dfab7df5ce4aad53db2766a6c4275a4c1e796cf13fb231906f792af9bc717ce1ccafa62165ebdc66b02fb0882cd5beac443921d36883a491d2b549a5509d63534e1
+CCTV-4,https://www.freetv.top/migu/608807419.m3u8?migutoken=77b074e1b49cf260629d9642f9505e978eaabf572bfa1abe5f2e3ef60f5e4929c900274758111d707a7cca2a7368eb2b1af1415da7e0b2dbfcbdbeb4cb8566210f2994ffde97ad1e11a037a174
+CCTV-4,https://www.freetv.top/migu/631780421.m3u8?migutoken=fefc6a44400a0dd448699ae0ce3d6e2c5a0f49b8d48adb36e747c4fbab039337eb3244f9951acbddaf26b7bf51597a7d1b43c8845e67fd5914ece875dcad325bb388200bc0f12fdff727d03e2d
+CCTV-4,http://z.b.bkpcp.top/m.php?id=cctv4
+CCTV-5,https://www.freetv.top/migu/641886683.m3u8?migutoken=3e5c01f93922de8d1c940fe15bb47349b27e8f7a2e624dde1a83dff3b2a80f58b7624151a3a4d00488edee34f202818557340903382fae02bb754084eb942bd50e59061df36fab62fb5b908903
+CCTV-5,http://z.b.bkpcp.top/m.php?id=cctv5
+CCTV-5+,https://www.freetv.top/migu/641886773.m3u8?migutoken=03a1b82e35e58cd89a95034ecb29e77e50493397000ec2b1e4d1ce59af01e6420d6dbc068c8230ec03be3a35a20eed8714e0959e3570a08713a7a2e8d86085eabf8f1aa85744c80c38343988b2
+CCTV-5+,http://z.b.bkpcp.top/m.php?id=cctv5p
+CCTV-6,https://www.freetv.top/migu/624878396.m3u8?migutoken=8e4f91b7950497f8570c74e50003b7fa23f6565c16a6b361ff855d3a969ddf7ea3826b04d20d76b6eeb472f0cb8b86284614a835429165709ec8c3055f8e9a7879e9594a4309b5d50f59f8a535
+CCTV-6,http://z.b.bkpcp.top/m.php?id=cctv6
+CCTV-7,https://www.freetv.top/migu/673168121.m3u8?migutoken=a878b713604abd82c57cce75de174e0284d3f101e21d0c3e362670e4b5a5e75d9b42846e5e0adf92c1ad15c63d60934f3e68c25f787bc0665d12acde75a6db4761278e79b762292ed5b5a2fae3
+CCTV-7,http://z.b.bkpcp.top/m.php?id=cctv7
+CCTV-8,https://www.freetv.top/migu/624878356.m3u8?migutoken=170b73b07e0cf0d307afea3545da5b9609d7c15461a2f4ac0f43634101df9baf391a446b91e5f84446b6a3b0934bb4730e2f3c4a32a565f904f22c8ff745a094d45dfd49c54f31b0b78156a080
+CCTV-8,http://z.b.bkpcp.top/m.php?id=cctv8
+CCTV-9,https://www.freetv.top/migu/673168140.m3u8?migutoken=749c49cdc31bb395e0349adc81010adc8707f80e51e9d3491ad67bfa71388ad768f7b52c8064338a7ef45eb7ddb192fb4937b21681c82499a0c16653ad9a9bec98ff5ce6ab183e4029bbdf269e
+CCTV-9,http://z.b.bkpcp.top/m.php?id=cctv9
+CCTV-10,https://www.freetv.top/migu/624878405.m3u8?migutoken=07b6e1d4124dd85ca8138b8d8dcd646323952053748d7d5ac0a2b31dcb6626c605fb05470545bd0f7e0d23e807e6909b517b2b8b5e2eaa926600edaa15d80aee9b900245924108c86040411cd4
+CCTV-10,http://z.b.bkpcp.top/m.php?id=cctv10
+CCTV-11,https://www.freetv.top/migu/667987558.m3u8?migutoken=16827d54043eba69d051685229b1d0623c01f398f643b3a7d912c9929d6525025ef57eb61666d45bb70dfc86405aa336ca762f0bda4f0284d98eddae4042805df42661f954a1d40820829ec8c2
+CCTV-11,http://z.b.bkpcp.top/m.php?id=cctv11
+CCTV-12,https://www.freetv.top/migu/673168185.m3u8?migutoken=37acadb43b1d7932b0a1e8a4f2d01a06b42a10c31f3ccb417bae200ac3028f30a8110509f2cd6cd130aee4b21c85693aa49817f3381e4d28e140d8db1a20b6fecea22fec17a70ff1341efe6081
+CCTV-12,http://z.b.bkpcp.top/m.php?id=cctv12
+CCTV-13,https://www.freetv.top/migu/608807423.m3u8?migutoken=ac19a58805588401a8e818b6dd00df9b327912af3611ba95f89235e7020821668a2b6dc65ccc3904967da59d0a9742565c56ea582baf8915d068035054818ef0f369dab64705a6a7f7120529ec
+CCTV-13,http://z.b.bkpcp.top/m.php?id=cctv13
+CCTV-14,https://www.freetv.top/migu/624878440.m3u8?migutoken=239edad94ac0bbff14f123c7f8996ed7639110bd6cf64ec8ba8cf85842224956d452ec8b683385cb27f8a7685224a03e3aa4d914b8fe33249da9df699351b105c795452d03f2be0a1f1e39adb0
+CCTV-14,http://z.b.bkpcp.top/m.php?id=cctv14
+CCTV-15,https://www.freetv.top/migu/673168223.m3u8?migutoken=4e8d5766579c6bef231494cabd07e5b49d965804790214280c9791e4c331fd90311cb62ea43d3a1899229bfa57be4afe5a567b32a6b78153fc9a9801e28a39435e078b48c211e71d6083519be4
+CCTV-15,http://z.b.bkpcp.top/m.php?id=cctv15
+CCTV-17,https://www.freetv.top/migu/673168256.m3u8?migutoken=11fec7586772852c5b34d75ff515080f8def9861a030c98c5861b036729d642445a7bc5b0cd43e7086ca1903346f6cbad01b639771ee3bd13e653bdb2d14f169744862c9695688b0b177bc144a
+CCTV-17,http://z.b.bkpcp.top/m.php?id=cctv17
+广东卫视,http://z.b.bkpcp.top/m.php?id=gdws
+湖北卫视,https://www.freetv.top/migu/738906825.m3u8?migutoken=959fce041a0fecbe0bdf2b300a4d13c986661650b877856aabade568eaf9f549143a65c212325030ca99ac119635c6c4daa7c93ba8863508e6aeef100965a31ae4a8152b02337aea453f42988d
+湖北卫视,http://z.b.bkpcp.top/m.php?id=hubws
+东方卫视,https://www.freetv.top/migu/651632648.m3u8?migutoken=67b4219a3e6acdcf288118ed6bf84d3197052966f0bc854079b6038b3fca6437744ca78bb0ea1fad6f61b4c73d0df57bd8b539ec247fd28ce16d1375716bbf774ea19c99e4585bb828fa3851c0
+江苏卫视,https://www.freetv.top/migu/623899368.m3u8?migutoken=3ec7add32f2108ed670e526f58207033f492fc81ffe6044df4e04bf88bca3cfbe3f1af7bd4fa10e5a6663f276475985da275dfa9a568feed08fbc90f40838156a2167089cb6b35aaaf231e8ae8
+江苏卫视,http://z.b.bkpcp.top/m.php?id=jsws
+江西卫视,https://www.freetv.top/migu/783847495.m3u8?migutoken=fddcc05dc0245329d3208607a5b1f5a1980bc31a7ced510e345af6cc68f5b86d2d9178b45706a0b6a0ceddc82ce06e53375cfedbc96fd0b00c12195c7d77b6f23811a67970bcfeb47629aa5aa6
+江西卫视,http://z.b.bkpcp.top/m.php?id=jxws
+陕西卫视,https://www.freetv.top/migu/738910838.m3u8?migutoken=35df06ac83a8fe0b0d98f96b8dbf5821d2a57fbd279c10148f5eb543353c48d828c15e639a63919e023774c69fac3a6f5a2bbfd1ee773d77c0dc154b9acd0c77e84c99627dd15f852e56ab3281
+陕西卫视,http://z.b.bkpcp.top/m.php?id=sxws
+七彩戏剧,http://z.b.bkpcp.top/m.php?id=qcxj
+东方影视,https://www.freetv.top/migu/617290047.m3u8?migutoken=86c02ad0875d5cc49d77bcc8bdb628f2c9d508ffc323b964a03c8f92dde4afafa0345cf5a8fefbdf915c748e3d11c6c18e27ae1e21a609cec31a45e6c437db26a7a243625f9cf35c271171a22c
+东方影视,http://z.b.bkpcp.top/m.php?id=shys
+新闻综合,https://www.freetv.top/migu/651632657.m3u8?migutoken=b4a3e55048f55ec1c8fc5b509fbdf32f2dc5d255f5f218e79e84ca9a87fb9f2239927cb11b448f18285b50b81b4cd50a1354e9be5a3283375e85372798c3f3eb3ad60adf45eb5615f68eb4825f
+CHC家庭影院,https://www.freetv.top/migu/644368373.m3u8?migutoken=b9d9d0ba0208e949cf0736455b86290b2d1d2ff4727f523b7117dde6eb883cb4582c5ce1519685e57d54bfb562057c10a00dde58bb674d8600fd2d918b8cb440294e083e7b8f19e0dbcc9250d8
+CHC动作电影,https://www.freetv.top/migu/644368714.m3u8?migutoken=2e48d18419793654f347e8ca29e0028ce9f3eaaa7a108b006304178b8f790f34908f8a09bbb8f4b8b8abcf36e2341f1043dde8719cf4927fcd0dcde4667f8b91e68e820314791d9b70452862c9
+劲爆体育,https://www.freetv.top/migu/796071336.m3u8?migutoken=1cc947d86cb584c31c31c88c005d55965238dbfff7ed75fca8451aed0b564786fde7e4b327e93b92dc96ef57e64e3bb56e8a9e921338080cdae817cb6125d8450b687659ecfee06be9c5d53ac6
+劲爆体育,http://z.b.bkpcp.top/m.php?id=jbty
+魅力足球,https://www.freetv.top/migu/796070308.m3u8?migutoken=aef1ffa947e5328dd4ec2bb318b58b674fe32113222c6c9eab78bcdc2a9f31cf142a1d60536ea5a5ee039d3753e6bd98bef238d0ba7e3af9153e765e8b77e2a8c28451355b4a426d11c5c304f8
+魅力足球,http://z.b.bkpcp.top/m.php?id=mlzq
+游戏风云,http://z.b.bkpcp.top/m.php?id=yxfy
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct2
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct4
+翡翠台北美版(TVB J1),http://php.jdshipin.com/TVOD/iptv.php?id=j1
+TVB J1,http://php.jdshipin.com/TVOD/iptv.php?id=tvbj1
+TVB Plus,http://php.jdshipin.com/TVOD/iptv.php?id=j2
+TVB Plus,http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
+VIUTV,http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+VIUTV,http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
+HOY TV,http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
+HOY TV,http://php.jdshipin.com/TVOD/iptv.php?id=hoytv2
+美亚电影,http://php.jdshipin.com/TVOD/iptv.php?id=meiya
+重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
+广东珠江,http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
+广东体育,http://php.jdshipin.com/TVOD/iptv.php?id=gdty
+龙华日韩,http://cdn5.163189.xyz/litv.php?id=litv-longturn11
+龙华电影,http://cdn5.163189.xyz/litv.php?id=litv-longturn03
+龙华卡通,http://cdn5.163189.xyz/litv.php?id=litv-longturn01
+龙华偶像,http://cdn5.163189.xyz/litv.php?id=litv-longturn12
+龙华戏剧,http://cdn5.163189.xyz/litv.php?id=litv-longturn18
+龙华经典,http://cdn5.163189.xyz/litv.php?id=litv-longturn21
+澳视澳门,http://php.jdshipin.com/TVOD/iptv.php?id=asam
+澳视卫星,http://php.jdshipin.com/TVOD/iptv.php?id=as
+Jade 翡翠台[直播],https://live.hkdvb.com/hls/live/81.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Jade 翡翠台(h265)[直播],https://live.hkdvb.com/hls/live/581.m3u8?token=821697798027168&edge=live.tvfree.sbs
+TVB PLUS[直播],https://live.hkdvb.com/hls/live/82.m3u8?token=821697798027168&edge=live.tvfree.sbs
+News 新聞台[直播],https://live.hkdvb.com/hls/live/83.m3u8?token=821697798027168&edge=live.tvfree.sbs
+News 新聞台(h265)[直播],https://live.hkdvb.com/hls/live/583.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Pearl 明珠台[直播],https://live.hkdvb.com/hls/live/84.m3u8?token=821697798027168&edge=live.tvfree.sbs
+鳳凰香港台[直播],https://live.hkdvb.com/hls/live/85.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Classic 千禧經典台[直播],https://live.hkdvb.com/hls/live/586.m3u8?token=821697798027168&edge=live.tvfree.sbs
+華語劇台[直播],https://live.hkdvb.com/hls/live/89.m3u8?token=821697798027168&edge=live.tvfree.sbs
+黃金華劇台[直播],https://live.hkdvb.com/hls/live/90.m3u8?token=821697798027168&edge=live.tvfree.sbs
+黃金翡翠台[直播],https://live.hkdvb.com/hls/live/100.m3u8?token=821697798027168&edge=live.tvfree.sbs
+粵語片台[直播],https://live.hkdvb.com/hls/live/200.m3u8?token=821697798027168&edge=live.tvfree.sbs
+美亞電影台[直播],https://live.hkdvb.com/hls/live/201.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Popc[直播],https://live.hkdvb.com/hls/live/206.m3u8?token=821697798027168&edge=live.tvfree.sbs
+翡翠4K[直播],https://live.hkdvb.com/hls/live/800.m3u8?token=821697798027168&edge=live.tvfree.sbs
+HOY TV[直播],https://live.hkdvb.com/hls/live/77.m3u8?token=821697798027168&edge=live.tvfree.sbs
+HOY TV 資訊台[直播],https://live.hkdvb.com/hls/live/78.m3u8?token=821697798027168&edge=live.tvfree.sbs
+HOY 國際財經台[直播],https://live.hkdvb.com/hls/live/76.m3u8?token=821697798027168&edge=live.tvfree.sbs
+ViuTV[直播],https://live.hkdvb.com/hls/live/99.m3u8?token=821697798027168&edge=live.tvfree.sbs
+ViuTV Six[直播],https://live.hkdvb.com/hls/live/96.m3u8?token=821697798027168&edge=live.tvfree.sbs
+HBO[直播],https://live.hkdvb.com/hls/live/115.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Now Popcorn 爆谷台[直播],https://live.hkdvb.com/hls/live/133.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Now Superstars 星影台[直播],https://live.hkdvb.com/hls/live/138.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Now NEWS 新聞台[直播],https://live.hkdvb.com/hls/live/332.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Now Sports 英超1台[直播],https://live.hkdvb.com/hls/live/621.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Now Sports Prime[直播],https://live.hkdvb.com/hls/live/630.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Now Sports 632[直播],https://live.hkdvb.com/hls/live/632.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Now Sports 641[直播],https://live.hkdvb.com/hls/live/641.m3u8?token=821697798027168&edge=live.tvfree.sbs
+Now Sports 642[直播],https://live.hkdvb.com/hls/live/642.m3u8?token=821697798027168&edge=live.tvfree.sbs
+港台電視 31[直播],https://live.hkdvb.com/hls/live/31.m3u8?token=821697798027168&edge=live.tvfree.sbs
+港台電視 32[直播],https://live.hkdvb.com/hls/live/32.m3u8?token=821697798027168&edge=live.tvfree.sbs
+CCTV-1  港澳版[直播],https://live.hkdvb.com/hls/live/33.m3u8?token=821697798027168&edge=live.tvfree.sbs
+CGTN Documentary[直播],https://live.hkdvb.com/hls/live/34.m3u8?token=821697798027168&edge=live.tvfree.sbs
+CGTN English[直播],https://live.hkdvb.com/hls/live/35.m3u8?token=821697798027168&edge=live.tvfree.sbs
+CCM[直播],https://live.hkdvb.com/hls/live/500.m3u8?token=821697798027168&edge=live.tvfree.sbs
+CM[直播],https://live.hkdvb.com/hls/live/501.m3u8?token=821697798027168&edge=live.tvfree.sbs
+珠江[直播],https://live.hkdvb.com/hls/live/502.m3u8?token=821697798027168&edge=live.tvfree.sbs
+广东体育[直播],https://live.hkdvb.com/hls/live/503.m3u8?token=821697798027168&edge=live.tvfree.sbs
+SuperSport LaLiga[直播],https://live.hkdvb.com/hls/live/700.m3u8?token=821697798027168&edge=live.tvfree.sbs
