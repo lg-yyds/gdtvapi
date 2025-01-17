@@ -1,4 +1,7 @@
 📺海外专用,#genre#
+凤凰中文
+凤凰资讯
+凤凰香港
 CCTV-1
 CCTV-2
 CCTV-3
@@ -15,8 +18,141 @@ CCTV-12
 CCTV-13
 CCTV-14
 CCTV-15
-CCTV-16
 CCTV-17
+广东卫视
+湖北卫视
+东方卫视
+江苏卫视
+江西卫视
+陕西卫视
+七彩戏剧
+东方影视
+新闻综合
+CHC家庭影院
+CHC动作电影
+劲爆体育
+魅力足球
+游戏风云
+翡翠台
+翡翠台北美版(TVB J1)
+TVB J1
+TVB Plus
+VIUTV
+HOY TV
+美亚电影
+重温经典
+广东珠江
+广东体育
+龙华日韩
+龙华电影
+龙华卡通
+龙华偶像
+龙华戏剧
+龙华经典
+澳视澳门
+澳视卫星
+Jade 翡翠台[直播]
+Jade 翡翠台(h265)[直播]
+TVB PLUS[直播]
+News 新聞台[直播]
+News 新聞台(h265)[直播]
+Pearl 明珠台[直播]
+鳳凰香港台[直播]
+Classic 千禧經典台[直播]
+華語劇台[直播]
+黃金華劇台[直播]
+黃金翡翠台[直播]
+粵語片台[直播]
+美亞電影台[直播]
+Popc[直播]
+翡翠4K[直播]
+HOY TV[直播]
+HOY TV 資訊台[直播]
+HOY 國際財經台[直播]
+ViuTV[直播]
+ViuTV Six[直播]
+HBO[直播]
+Now Popcorn 爆谷台[直播]
+Now Superstars 星影台[直播]
+Now NEWS 新聞台[直播]
+Now Sports 英超1台[直播]
+Now Sports Prime[直播]
+Now Sports 632[直播]
+Now Sports 641[直播]
+Now Sports 642[直播]
+港台電視 31[直播]
+港台電視 32[直播]
+CCTV-1  港澳版[直播]
+CGTN Documentary[直播]
+CGTN English[直播]
+CCM[直播]
+CM[直播]
+珠江[直播]
+广东体育[直播]
+SuperSport LaLiga[直播]
+Pearl 明珠台
+HOYTV资讯台
+NOW新闻台
+TVBJ1
+RTHK31
+RTHK32
+RTHK36
+Viu TV
+Viu TV6
+东森新闻
+无线新闻台
+中天新闻
+台视新闻
+TVBS NEWS
+半岛电视台 卡塔尔
+俄罗斯 24
+俄罗斯1
+ABC NEWS 美国
+BBC America East 英国
+BBC NEWS 英国
+Bloomberg TV 4K 美国
+Bloomberg TV 美国
+Bloomberg TV Asia 美国
+CBC News 美国
+CBN News 美国
+CBS News 美国
+CBS News Los Angeles 美国
+CBS News Texas 美国
+CGTN 中国
+CJB TV 韩国
+CNA 新加坡
+CNN International 美国
+DW 德国
+euro news 欧洲
+Fox 2 美国
+Fox 4 美国
+Fox 5 美国
+Fox 9 美国
+Fox 26 美国
+Fox News 美国
+Fox News Now 美国
+GB NEWS 英国
+INDIA Today 印度
+KBS WORLD 韩国
+NBC News 美国
+NBC San Francisco News 美国
+NBC 4 Los Angeles News 美国
+NBC 4 Washington News 美国
+NBC 4 New York 美国
+NBC 5 Chicago News 美国
+NBC 10 Boston News 美国
+NBC 10 Philadelphia News 美国
+NHK BSP4K 日本
+NHK E 日本
+NHK G 日本
+NHK World 日本
+NHK World Premium 日本
+NHK 综合 东京 日本
+NTV News 24 日本
+Russia Today 俄罗斯
+SBS 韩国
+TBS News 日本
+WION 印度
 📺央视频道,#genre#
 CCTV-1
 CCTV-2
