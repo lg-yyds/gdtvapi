@@ -4,6 +4,7 @@
 https://arm.130707.xyz/Sub?type=txt&token=gjj@nmfxv568hvcd@
 #https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/TXT/diy.txt
 https://tv4g.130707.xyz/Sub?type=m3u&sd=1080&proxy=true&token=9527@@@
+http://aktv.space/live.m3u
 https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/TXT/Smartv.m3u
 https://raw.githubusercontent.com/lg-yyds/m3u8-m3u/refs/heads/main/output/index.txt
 https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
