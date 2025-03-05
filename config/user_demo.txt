@@ -20,6 +20,9 @@ CCTV-14
 CCTV-15
 CCTV-16
 CCTV-17
+Channel 5 HD
+Channel 8 HD
+Channel U HD
 广东卫视
 湖北卫视
 东方卫视
