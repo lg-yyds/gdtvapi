@@ -1,7 +1,6 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
-https://arm.130707.xyz/Sub?type=txt&token=gjj@nmfxv568hvcd@
 #https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/TXT/diy.txt
 https://tv4g.130707.xyz/Sub?type=m3u&sd=1080&proxy=true&token=9527@@@
 http://aktv.space/live.m3u
