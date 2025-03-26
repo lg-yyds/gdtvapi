@@ -3,6 +3,7 @@
 
 https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/TXT/diy.txt
 https://tv4g.130707.xyz/Sub?type=m3u&sd=1080&proxy=true&token=9527@@@
+https://live.hacks.tools/tv/ipv4/categories/taiwan.m3u
 https://aktv.top/live.m3u
 http://aktv.space/live.m3u
 https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/TXT/Smartv.m3u
