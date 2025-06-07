@@ -1,7 +1,6 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
-https://live.hacks.tools/tv/ipv4/categories/taiwan.m3u
 https://raw.githubusercontent.com/Guovin/iptv-database/master/result.txt
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
@@ -12,18 +11,3 @@ https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整�
 https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-#https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/TXT/Smartv.m3u
-https://raw.githubusercontent.com/lg-yyds/m3u8-m3u/refs/heads/main/output/index.txt
-https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
-#https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/EXT/TXT/YTTVS.txt
-https://raw.githubusercontent.com/dextermo01/HH004015/45fe84621104dca2fbe687665e609973de1b8bb3/HK.m3u
-https://raw.githubusercontent.com/dextermo01/HH004015/45fe84621104dca2fbe687665e609973de1b8bb3/Archive.m3u
-https://raw.githubusercontent.com/dextermo01/HH004015/45fe84621104dca2fbe687665e609973de1b8bb3/HK-zh.m3u
-https://raw.githubusercontent.com/lg-yyds/collect-tv-txt/refs/heads/main/live.txt
-https://live.iptv365.org/live.txt
-https://raw.githubusercontent.com/tansuotv/IPTVindex/refs/heads/main/tv.txt
-https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
-https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
-https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
-https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/refs/heads/main/live_lite.txt
