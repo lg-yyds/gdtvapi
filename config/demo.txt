@@ -1,3 +1,8 @@
+📺本地频道,#genre#
+CCTV-5
+CCTV-16
+CCTV-4K
+CCTV-8K
 📺央视频道,#genre#
 CCTV-1
 CCTV-2
