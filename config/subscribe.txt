@@ -3,6 +3,8 @@
 
 https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
+https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txtuserid=5803665715&sign=65177c4b80fc8438071a048ac5aec7980991f960675556c5c93cdb3c5a6f7082e86f69204a098d26a1bc196b6c880d567ed4a2e65c270ce37ca71e387de6289dbf6a784a3c5e9c&auth_token=b6823db883fc12f91cf1127973951993
+
 https://raw.githubusercontent.com/Guovin/iptv-database/master/result.txt
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
