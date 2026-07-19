@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv date="20260719112424 +0800">
+<tv date="20260719162131 +0800">
 	<channel id="CCTV-1">
 		<display-name lang="zh">CCTV-1</display-name>
 	</channel>
@@ -9098,6 +9098,927 @@
 	</programme>
 	<programme channel="CCTV-4" start="20260720234900 +0800" stop="20260721003400 +0800">
 		<title lang="zh">青山是故乡(2)</title>
+	</programme>
+	<channel id="CCTV-4K">
+		<display-name lang="zh">CCTV-4K</display-name>
+	</channel>
+	<programme channel="CCTV-4K" start="20260713000000 +0800" stop="20260713060000 +0800">
+		<title lang="zh">再见</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713060000 +0800" stop="20260713060100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713060100 +0800" stop="20260713064600 +0800">
+		<title lang="zh">国家荣光(25)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713064600 +0800" stop="20260713070100 +0800">
+		<title lang="zh">戏曲的另一种打开方式(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713070100 +0800" stop="20260713072900 +0800">
+		<title lang="zh">记住乡愁(8)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713072900 +0800" stop="20260713073900 +0800">
+		<title lang="zh">中华古树:贡山秃杉古树群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713073900 +0800" stop="20260713080400 +0800">
+		<title lang="zh">百年守护(5)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713080400 +0800" stop="20260713085300 +0800">
+		<title lang="zh">澳门-露天博物馆(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713085300 +0800" stop="20260713090000 +0800">
+		<title lang="zh">中国微名片·世界遗产2(20)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713090000 +0800" stop="20260713094800 +0800">
+		<title lang="zh">利剑·玫瑰(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713094800 +0800" stop="20260713103500 +0800">
+		<title lang="zh">利剑·玫瑰(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713103500 +0800" stop="20260713111500 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713111500 +0800" stop="20260713120500 +0800">
+		<title lang="zh">我们中国人(5)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713120500 +0800" stop="20260713123200 +0800">
+		<title lang="zh">军武零距离精编</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713123200 +0800" stop="20260713130000 +0800">
+		<title lang="zh">记住乡愁(8)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713130000 +0800" stop="20260713131000 +0800">
+		<title lang="zh">中华古树:贡山秃杉古树群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713131000 +0800" stop="20260713133400 +0800">
+		<title lang="zh">百年守护(5)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713133400 +0800" stop="20260713134400 +0800">
+		<title lang="zh">秘境之眼:高原蹄踪</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713134400 +0800" stop="20260713135000 +0800">
+		<title lang="zh">美丽中国:自然</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713135000 +0800" stop="20260713135900 +0800">
+		<title lang="zh">营造之法:这不是西游记这是晋祠</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713135900 +0800" stop="20260713144600 +0800">
+		<title lang="zh">沉默的荣耀(27)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713144600 +0800" stop="20260713153300 +0800">
+		<title lang="zh">沉默的荣耀(28)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713153300 +0800" stop="20260713162200 +0800">
+		<title lang="zh">澳门-露天博物馆(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713162200 +0800" stop="20260713174200 +0800">
+		<title lang="zh">2026世界杯:葡萄牙-西班牙</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713174200 +0800" stop="20260713175200 +0800">
+		<title lang="zh">中华古树:蕉城杉木王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713175200 +0800" stop="20260713180000 +0800">
+		<title lang="zh">美丽中国:四季(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713180000 +0800" stop="20260713182800 +0800">
+		<title lang="zh">记住乡愁(9)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713182800 +0800" stop="20260713183800 +0800">
+		<title lang="zh">中华古树:绍兴古桂花群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713183800 +0800" stop="20260713190300 +0800">
+		<title lang="zh">百年守护(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713190300 +0800" stop="20260713191300 +0800">
+		<title lang="zh">秘境之眼:犀鸟养家记</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713191300 +0800" stop="20260713191800 +0800">
+		<title lang="zh">美丽中国:自然</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713191800 +0800" stop="20260713200300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713200300 +0800" stop="20260713205000 +0800">
+		<title lang="zh">利剑·玫瑰(4)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713205000 +0800" stop="20260713213600 +0800">
+		<title lang="zh">利剑·玫瑰(5)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713213600 +0800" stop="20260713225600 +0800">
+		<title lang="zh">2026世界杯1/4决赛:法国-摩洛哥</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713225600 +0800" stop="20260713230600 +0800">
+		<title lang="zh">中华古树:蕉城杉木王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713230600 +0800" stop="20260713235600 +0800">
+		<title lang="zh">大黄河(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260713235600 +0800" stop="20260714000000 +0800">
+		<title lang="zh">丝绸之旅2025</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714000000 +0800" stop="20260714060000 +0800">
+		<title lang="zh">再见</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714060000 +0800" stop="20260714060100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714060100 +0800" stop="20260714064600 +0800">
+		<title lang="zh">国家荣光(26)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714064600 +0800" stop="20260714065600 +0800">
+		<title lang="zh">中华古树:绍兴古桂花群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714065600 +0800" stop="20260714072100 +0800">
+		<title lang="zh">百年守护(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714072100 +0800" stop="20260714080300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714080300 +0800" stop="20260714085200 +0800">
+		<title lang="zh">我们中国人(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714085200 +0800" stop="20260714085900 +0800">
+		<title lang="zh">香港之味(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714085900 +0800" stop="20260714094700 +0800">
+		<title lang="zh">利剑·玫瑰(4)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714094700 +0800" stop="20260714103400 +0800">
+		<title lang="zh">利剑·玫瑰(5)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714103400 +0800" stop="20260714111400 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714111400 +0800" stop="20260714120400 +0800">
+		<title lang="zh">大黄河(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714120400 +0800" stop="20260714123200 +0800">
+		<title lang="zh">记住乡愁(9)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714123200 +0800" stop="20260714124200 +0800">
+		<title lang="zh">中华古树:绍兴古桂花群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714124200 +0800" stop="20260714130600 +0800">
+		<title lang="zh">百年守护(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714130600 +0800" stop="20260714131600 +0800">
+		<title lang="zh">秘境之眼:犀鸟养家记</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714131600 +0800" stop="20260714140000 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714140000 +0800" stop="20260714144600 +0800">
+		<title lang="zh">沉默的荣耀(29)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714144600 +0800" stop="20260714153400 +0800">
+		<title lang="zh">沉默的荣耀(30)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714153400 +0800" stop="20260714162300 +0800">
+		<title lang="zh">大黄河(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714162300 +0800" stop="20260714174300 +0800">
+		<title lang="zh">2026世界杯:加拿大-摩洛哥</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714174300 +0800" stop="20260714175300 +0800">
+		<title lang="zh">中华古树:小鸟天堂古榕树</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714175300 +0800" stop="20260714180000 +0800">
+		<title lang="zh">美丽中国:海南岛(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714180000 +0800" stop="20260714182800 +0800">
+		<title lang="zh">记住乡愁(10)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714182800 +0800" stop="20260714183800 +0800">
+		<title lang="zh">中华古树:东莞大王山古树群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714183800 +0800" stop="20260714190200 +0800">
+		<title lang="zh">百年守护(7)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714190200 +0800" stop="20260714191200 +0800">
+		<title lang="zh">秘境之眼:青海湖-湟鱼繁衍故事</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714191200 +0800" stop="20260714191800 +0800">
+		<title lang="zh">美丽中国:自然</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714191800 +0800" stop="20260714200200 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714200200 +0800" stop="20260714204900 +0800">
+		<title lang="zh">利剑·玫瑰(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714204900 +0800" stop="20260714213600 +0800">
+		<title lang="zh">利剑·玫瑰(7)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714213600 +0800" stop="20260714222500 +0800">
+		<title lang="zh">我们中国人(7)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714222500 +0800" stop="20260714230500 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714230500 +0800" stop="20260714235500 +0800">
+		<title lang="zh">大黄河(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260714235500 +0800" stop="20260715000000 +0800">
+		<title lang="zh">丝绸之旅2025</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715000000 +0800" stop="20260715060000 +0800">
+		<title lang="zh">再见</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715060000 +0800" stop="20260715060100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715060100 +0800" stop="20260715064600 +0800">
+		<title lang="zh">国家荣光(27)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715064600 +0800" stop="20260715065600 +0800">
+		<title lang="zh">中华古树:东莞大王山古树群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715065600 +0800" stop="20260715072100 +0800">
+		<title lang="zh">百年守护(7)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715072100 +0800" stop="20260715080300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715080300 +0800" stop="20260715085200 +0800">
+		<title lang="zh">我们中国人(7)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715085200 +0800" stop="20260715085900 +0800">
+		<title lang="zh">香港之味(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715085900 +0800" stop="20260715094700 +0800">
+		<title lang="zh">利剑·玫瑰(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715094700 +0800" stop="20260715103400 +0800">
+		<title lang="zh">利剑·玫瑰(7)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715103400 +0800" stop="20260715111400 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715111400 +0800" stop="20260715120400 +0800">
+		<title lang="zh">大黄河(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715120400 +0800" stop="20260715123200 +0800">
+		<title lang="zh">记住乡愁(10)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715123200 +0800" stop="20260715124200 +0800">
+		<title lang="zh">中华古树:东莞大王山古树群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715124200 +0800" stop="20260715130600 +0800">
+		<title lang="zh">百年守护(7)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715130600 +0800" stop="20260715131600 +0800">
+		<title lang="zh">秘境之眼:青海湖-湟鱼繁衍故事</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715131600 +0800" stop="20260715140000 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715140000 +0800" stop="20260715144600 +0800">
+		<title lang="zh">沉默的荣耀(31)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715144600 +0800" stop="20260715153400 +0800">
+		<title lang="zh">沉默的荣耀(32)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715153400 +0800" stop="20260715162300 +0800">
+		<title lang="zh">大黄河(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715162300 +0800" stop="20260715174300 +0800">
+		<title lang="zh">2026世界杯1/8决赛:巴拉圭-法国</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715174300 +0800" stop="20260715175300 +0800">
+		<title lang="zh">中华古树:北京九搂十八杈</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715175300 +0800" stop="20260715180000 +0800">
+		<title lang="zh">美丽中国:云南(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715180000 +0800" stop="20260715182800 +0800">
+		<title lang="zh">记住乡愁(10)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715182800 +0800" stop="20260715183800 +0800">
+		<title lang="zh">中华古树:闽侯榕树王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715183800 +0800" stop="20260715190200 +0800">
+		<title lang="zh">百年守护(8)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715190200 +0800" stop="20260715191200 +0800">
+		<title lang="zh">秘境之眼:秘境飞羽</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715191200 +0800" stop="20260715191800 +0800">
+		<title lang="zh">美丽中国:自然</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715191800 +0800" stop="20260715200200 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715200200 +0800" stop="20260715204900 +0800">
+		<title lang="zh">利剑·玫瑰(8)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715204900 +0800" stop="20260715213600 +0800">
+		<title lang="zh">利剑·玫瑰(9)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715213600 +0800" stop="20260715225600 +0800">
+		<title lang="zh">2026世界杯1/4决赛:挪威-英格兰</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715225600 +0800" stop="20260715230600 +0800">
+		<title lang="zh">中华古树:北京九搂十八杈</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715230600 +0800" stop="20260715235500 +0800">
+		<title lang="zh">大黄河(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260715235500 +0800" stop="20260716000000 +0800">
+		<title lang="zh">丝绸之旅2025</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716000000 +0800" stop="20260716060000 +0800">
+		<title lang="zh">再见</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716060000 +0800" stop="20260716060100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716060100 +0800" stop="20260716064600 +0800">
+		<title lang="zh">国家荣光(28)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716064600 +0800" stop="20260716065600 +0800">
+		<title lang="zh">中华古树:闽侯榕树王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716065600 +0800" stop="20260716072100 +0800">
+		<title lang="zh">百年守护(8)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716072100 +0800" stop="20260716080300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716080300 +0800" stop="20260716085200 +0800">
+		<title lang="zh">我们中国人(8)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716085200 +0800" stop="20260716085900 +0800">
+		<title lang="zh">香港之味(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716085900 +0800" stop="20260716094700 +0800">
+		<title lang="zh">利剑·玫瑰(8)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716094700 +0800" stop="20260716103300 +0800">
+		<title lang="zh">利剑·玫瑰(9)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716103300 +0800" stop="20260716111300 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716111300 +0800" stop="20260716120300 +0800">
+		<title lang="zh">大黄河(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716120300 +0800" stop="20260716123100 +0800">
+		<title lang="zh">记住乡愁(10)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716123100 +0800" stop="20260716124100 +0800">
+		<title lang="zh">中华古树:闽侯榕树王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716124100 +0800" stop="20260716130600 +0800">
+		<title lang="zh">百年守护(8)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716130600 +0800" stop="20260716131600 +0800">
+		<title lang="zh">秘境之眼:秘境飞羽</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716131600 +0800" stop="20260716135900 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716135900 +0800" stop="20260716144600 +0800">
+		<title lang="zh">沉默的荣耀(33)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716144600 +0800" stop="20260716153400 +0800">
+		<title lang="zh">沉默的荣耀(34)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716153400 +0800" stop="20260716162400 +0800">
+		<title lang="zh">大黄河(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716162400 +0800" stop="20260716174400 +0800">
+		<title lang="zh">2026世界杯1/8决赛:巴西-挪威</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716174400 +0800" stop="20260716175400 +0800">
+		<title lang="zh">中华古树:北京卧佛寺古蜡梅</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716175400 +0800" stop="20260716180000 +0800">
+		<title lang="zh">美丽中国:新疆(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716180000 +0800" stop="20260716182800 +0800">
+		<title lang="zh">记住乡愁(11)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716182800 +0800" stop="20260716183800 +0800">
+		<title lang="zh">中华古树:德化樟树王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716183800 +0800" stop="20260716190300 +0800">
+		<title lang="zh">百年守护(9)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716190300 +0800" stop="20260716191300 +0800">
+		<title lang="zh">秘境之眼:高原清道夫</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716191300 +0800" stop="20260716191800 +0800">
+		<title lang="zh">美丽中国:自然</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716191800 +0800" stop="20260716200300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716200300 +0800" stop="20260716205000 +0800">
+		<title lang="zh">利剑·玫瑰(10)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716205000 +0800" stop="20260716213600 +0800">
+		<title lang="zh">利剑·玫瑰(11)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716213600 +0800" stop="20260716225600 +0800">
+		<title lang="zh">2026世界杯:西班牙-比利时</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716225600 +0800" stop="20260716230600 +0800">
+		<title lang="zh">中华古树:北京卧佛寺古蜡梅</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716230600 +0800" stop="20260716235600 +0800">
+		<title lang="zh">大黄河(4)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260716235600 +0800" stop="20260717000000 +0800">
+		<title lang="zh">丝绸之旅2025</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717000000 +0800" stop="20260717060000 +0800">
+		<title lang="zh">再见</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717060000 +0800" stop="20260717060100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717060100 +0800" stop="20260717064600 +0800">
+		<title lang="zh">国家荣光(29)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717064600 +0800" stop="20260717065600 +0800">
+		<title lang="zh">中华古树:德化樟树王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717065600 +0800" stop="20260717072100 +0800">
+		<title lang="zh">百年守护(9)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717072100 +0800" stop="20260717080300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717080300 +0800" stop="20260717085200 +0800">
+		<title lang="zh">我们中国人(9)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717085200 +0800" stop="20260717085900 +0800">
+		<title lang="zh">香港之味(4)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717085900 +0800" stop="20260717094700 +0800">
+		<title lang="zh">利剑·玫瑰(10)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717094700 +0800" stop="20260717103400 +0800">
+		<title lang="zh">利剑·玫瑰(11)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717103400 +0800" stop="20260717111400 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717111400 +0800" stop="20260717120400 +0800">
+		<title lang="zh">大黄河(4)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717120400 +0800" stop="20260717123200 +0800">
+		<title lang="zh">记住乡愁(11)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717123200 +0800" stop="20260717124200 +0800">
+		<title lang="zh">中华古树:德化樟树王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717124200 +0800" stop="20260717130600 +0800">
+		<title lang="zh">百年守护(9)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717130600 +0800" stop="20260717131600 +0800">
+		<title lang="zh">秘境之眼:高原清道夫</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717131600 +0800" stop="20260717140000 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717140000 +0800" stop="20260717144600 +0800">
+		<title lang="zh">沉默的荣耀(35)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717144600 +0800" stop="20260717153400 +0800">
+		<title lang="zh">沉默的荣耀(36)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717153400 +0800" stop="20260717162400 +0800">
+		<title lang="zh">大黄河(4)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717162400 +0800" stop="20260717174400 +0800">
+		<title lang="zh">2026世界杯:墨西哥-英格兰</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717174400 +0800" stop="20260717175400 +0800">
+		<title lang="zh">中华古树:海南东方酸豆王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717175400 +0800" stop="20260717180000 +0800">
+		<title lang="zh">美丽中国:长白山(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717180000 +0800" stop="20260717182800 +0800">
+		<title lang="zh">记住乡愁(12)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717182800 +0800" stop="20260717183800 +0800">
+		<title lang="zh">中华古树:建瓯万木林</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717183800 +0800" stop="20260717190300 +0800">
+		<title lang="zh">百年守护(10)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717190300 +0800" stop="20260717191300 +0800">
+		<title lang="zh">秘境之眼:流石滩传奇</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717191300 +0800" stop="20260717191800 +0800">
+		<title lang="zh">美丽中国:自然</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717191800 +0800" stop="20260717200300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717200300 +0800" stop="20260717205000 +0800">
+		<title lang="zh">利剑·玫瑰(12)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717205000 +0800" stop="20260717213600 +0800">
+		<title lang="zh">利剑·玫瑰(13)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717213600 +0800" stop="20260717225600 +0800">
+		<title lang="zh">2026世界杯1/4决赛:法国-摩洛哥</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717225600 +0800" stop="20260717230600 +0800">
+		<title lang="zh">中华古树:海南东方酸豆王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717230600 +0800" stop="20260717235600 +0800">
+		<title lang="zh">大黄河(5)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260717235600 +0800" stop="20260718000000 +0800">
+		<title lang="zh">丝绸之旅2025</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718000000 +0800" stop="20260718060000 +0800">
+		<title lang="zh">再见</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718060000 +0800" stop="20260718060100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718060100 +0800" stop="20260718064600 +0800">
+		<title lang="zh">国家荣光(15)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718064600 +0800" stop="20260718065600 +0800">
+		<title lang="zh">中华古树:建瓯万木林</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718065600 +0800" stop="20260718072100 +0800">
+		<title lang="zh">百年守护(10)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718072100 +0800" stop="20260718080300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718080300 +0800" stop="20260718085200 +0800">
+		<title lang="zh">我们中国人(10)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718085200 +0800" stop="20260718085900 +0800">
+		<title lang="zh">香港之味(5)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718085900 +0800" stop="20260718094700 +0800">
+		<title lang="zh">利剑·玫瑰(12)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718094700 +0800" stop="20260718103300 +0800">
+		<title lang="zh">利剑·玫瑰(13)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718103300 +0800" stop="20260718111300 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718111300 +0800" stop="20260718120400 +0800">
+		<title lang="zh">大黄河(5)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718120400 +0800" stop="20260718123200 +0800">
+		<title lang="zh">记住乡愁(12)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718123200 +0800" stop="20260718124200 +0800">
+		<title lang="zh">中华古树:建瓯万木林</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718124200 +0800" stop="20260718130600 +0800">
+		<title lang="zh">百年守护(10)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718130600 +0800" stop="20260718131600 +0800">
+		<title lang="zh">秘境之眼:流石滩传奇</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718131600 +0800" stop="20260718140000 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718140000 +0800" stop="20260718144600 +0800">
+		<title lang="zh">沉默的荣耀(37)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718144600 +0800" stop="20260718153400 +0800">
+		<title lang="zh">沉默的荣耀(38)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718153400 +0800" stop="20260718162400 +0800">
+		<title lang="zh">大黄河(5)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718162400 +0800" stop="20260718174400 +0800">
+		<title lang="zh">2026世界杯:葡萄牙-西班牙</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718174400 +0800" stop="20260718175400 +0800">
+		<title lang="zh">中华古树:湖南崇木凼古树群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718175400 +0800" stop="20260718180000 +0800">
+		<title lang="zh">美丽中国:海南岛(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718180000 +0800" stop="20260718182800 +0800">
+		<title lang="zh">记住乡愁(14)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718182800 +0800" stop="20260718183800 +0800">
+		<title lang="zh">中华古树:霍州白皮松</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718183800 +0800" stop="20260718190300 +0800">
+		<title lang="zh">东方新科幻(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718190300 +0800" stop="20260718191300 +0800">
+		<title lang="zh">秘境之眼:雪域灵踪</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718191300 +0800" stop="20260718191800 +0800">
+		<title lang="zh">美丽中国:自然</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718191800 +0800" stop="20260718200300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718200300 +0800" stop="20260718205000 +0800">
+		<title lang="zh">利剑·玫瑰(14)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718205000 +0800" stop="20260718213600 +0800">
+		<title lang="zh">利剑·玫瑰(15)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718213600 +0800" stop="20260718225600 +0800">
+		<title lang="zh">2026世界杯半决赛:法国-西班牙</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718225600 +0800" stop="20260718230600 +0800">
+		<title lang="zh">中华古树:湖南崇木凼古树群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718230600 +0800" stop="20260718235600 +0800">
+		<title lang="zh">大黄河(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260718235600 +0800" stop="20260719000000 +0800">
+		<title lang="zh">丝绸之旅2025</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719000000 +0800" stop="20260719060000 +0800">
+		<title lang="zh">再见</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719060000 +0800" stop="20260719060100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719060100 +0800" stop="20260719064600 +0800">
+		<title lang="zh">国家荣光(30)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719064600 +0800" stop="20260719065600 +0800">
+		<title lang="zh">中华古树:霍州白皮松</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719065600 +0800" stop="20260719072100 +0800">
+		<title lang="zh">东方新科幻(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719072100 +0800" stop="20260719080300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719080300 +0800" stop="20260719085200 +0800">
+		<title lang="zh">跟着唐诗去旅行2(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719085200 +0800" stop="20260719085900 +0800">
+		<title lang="zh">香港之味(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719085900 +0800" stop="20260719094700 +0800">
+		<title lang="zh">利剑·玫瑰(14)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719094700 +0800" stop="20260719103300 +0800">
+		<title lang="zh">利剑·玫瑰(15)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719103300 +0800" stop="20260719111300 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719111300 +0800" stop="20260719120400 +0800">
+		<title lang="zh">大黄河(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719120400 +0800" stop="20260719123200 +0800">
+		<title lang="zh">记住乡愁(14)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719123200 +0800" stop="20260719124200 +0800">
+		<title lang="zh">中华古树:霍州白皮松</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719124200 +0800" stop="20260719130600 +0800">
+		<title lang="zh">东方新科幻(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719130600 +0800" stop="20260719131600 +0800">
+		<title lang="zh">秘境之眼:雪域灵踪</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719131600 +0800" stop="20260719140000 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719140000 +0800" stop="20260719144600 +0800">
+		<title lang="zh">沉默的荣耀(39)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719144600 +0800" stop="20260719153400 +0800">
+		<title lang="zh">驻站(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719153400 +0800" stop="20260719162400 +0800">
+		<title lang="zh">大黄河(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719162400 +0800" stop="20260719174400 +0800">
+		<title lang="zh">2026世界杯1/8决赛:美国-比利时</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719174400 +0800" stop="20260719175400 +0800">
+		<title lang="zh">中华古树:屏南水松古树群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719175400 +0800" stop="20260719180000 +0800">
+		<title lang="zh">美丽中国:云南(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719180000 +0800" stop="20260719182800 +0800">
+		<title lang="zh">记住乡愁(16)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719182800 +0800" stop="20260719183800 +0800">
+		<title lang="zh">中华古树:蕉城杉木王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719183800 +0800" stop="20260719190300 +0800">
+		<title lang="zh">东方新科幻(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719190300 +0800" stop="20260719191300 +0800">
+		<title lang="zh">秘境之眼:秘境高黎贡</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719191300 +0800" stop="20260719191800 +0800">
+		<title lang="zh">美丽中国:自然</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719191800 +0800" stop="20260719193000 +0800">
+		<title lang="zh">营造之法(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719193000 +0800" stop="20260719195700 +0800">
+		<title lang="zh">军武零距离精编</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719195700 +0800" stop="20260719200100 +0800">
+		<title lang="zh">美丽中国:云南滇金丝猴</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719200100 +0800" stop="20260719204900 +0800">
+		<title lang="zh">利剑·玫瑰(16)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719204900 +0800" stop="20260719213500 +0800">
+		<title lang="zh">利剑·玫瑰(17)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719213500 +0800" stop="20260719222500 +0800">
+		<title lang="zh">跟着唐诗去旅行2(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719222500 +0800" stop="20260719230500 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719230500 +0800" stop="20260719235400 +0800">
+		<title lang="zh">秘境武当(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260719235400 +0800" stop="20260720000000 +0800">
+		<title lang="zh">丝绸之旅2025</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720000000 +0800" stop="20260720060000 +0800">
+		<title lang="zh">再见</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720060000 +0800" stop="20260720060100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720060100 +0800" stop="20260720064600 +0800">
+		<title lang="zh">国家荣光(35)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720064600 +0800" stop="20260720070100 +0800">
+		<title lang="zh">戏曲的另一种打开方式(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720070100 +0800" stop="20260720072900 +0800">
+		<title lang="zh">记住乡愁(16)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720072900 +0800" stop="20260720073900 +0800">
+		<title lang="zh">中华古树：蕉城杉木王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720073900 +0800" stop="20260720080400 +0800">
+		<title lang="zh">东方新科幻(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720080400 +0800" stop="20260720085300 +0800">
+		<title lang="zh">跟着唐诗去旅行Ⅱ(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720085300 +0800" stop="20260720090000 +0800">
+		<title lang="zh">香港之味(7)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720090000 +0800" stop="20260720094800 +0800">
+		<title lang="zh">利剑·玫瑰(16)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720094800 +0800" stop="20260720103500 +0800">
+		<title lang="zh">利剑·玫瑰(17)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720103500 +0800" stop="20260720111500 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720111500 +0800" stop="20260720120500 +0800">
+		<title lang="zh">秘境武当(1)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720120500 +0800" stop="20260720123200 +0800">
+		<title lang="zh">军武零距离精编</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720123200 +0800" stop="20260720130000 +0800">
+		<title lang="zh">记住乡愁(16)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720130000 +0800" stop="20260720131000 +0800">
+		<title lang="zh">中华古树：蕉城杉木王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720131000 +0800" stop="20260720133400 +0800">
+		<title lang="zh">东方新科幻(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720131000 +0800" stop="20260720133400 +0800">
+		<title lang="zh">东方新科幻(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720133400 +0800" stop="20260720134400 +0800">
+		<title lang="zh">秘境之眼：秘境高黎贡</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720134400 +0800" stop="20260720135000 +0800">
+		<title lang="zh">美丽中国：自然</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720135000 +0800" stop="20260720140100 +0800">
+		<title lang="zh">营造之法(6)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720140100 +0800" stop="20260720144700 +0800">
+		<title lang="zh">驻站(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720144700 +0800" stop="20260720153500 +0800">
+		<title lang="zh">驻站(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720153500 +0800" stop="20260720162500 +0800">
+		<title lang="zh">跟着唐诗去旅行Ⅱ(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720162500 +0800" stop="20260720174500 +0800">
+		<title lang="zh">2026世界杯：瑞士-哥伦比亚</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720174500 +0800" stop="20260720175000 +0800">
+		<title lang="zh">香港之味(7)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720175000 +0800" stop="20260720180000 +0800">
+		<title lang="zh">中华古树：荣昌黄葛树古树群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720180000 +0800" stop="20260720182800 +0800">
+		<title lang="zh">记住乡愁(17)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720182800 +0800" stop="20260720183800 +0800">
+		<title lang="zh">中华古树：广州木棉王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720183800 +0800" stop="20260720190300 +0800">
+		<title lang="zh">东方新科幻(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720190300 +0800" stop="20260720191300 +0800">
+		<title lang="zh">秘境之眼：夏日泰加林</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720191300 +0800" stop="20260720191800 +0800">
+		<title lang="zh">美丽中国：自然</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720191800 +0800" stop="20260720200300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720200300 +0800" stop="20260720205000 +0800">
+		<title lang="zh">利剑·玫瑰(18)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720205000 +0800" stop="20260720213600 +0800">
+		<title lang="zh">利剑·玫瑰(19)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720213600 +0800" stop="20260720225600 +0800">
+		<title lang="zh">2026世界杯半决赛：法国-西班牙</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720225600 +0800" stop="20260720230600 +0800">
+		<title lang="zh">中华古树：荣昌黄葛树古树群</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720230600 +0800" stop="20260720235600 +0800">
+		<title lang="zh">秘境武当(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260720235600 +0800" stop="20260721000000 +0800">
+		<title lang="zh">丝绸之旅2025</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721000000 +0800" stop="20260721060000 +0800">
+		<title lang="zh">再见</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721060000 +0800" stop="20260721060100 +0800">
+		<title lang="zh">中华人民共和国国歌</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721060100 +0800" stop="20260721064600 +0800">
+		<title lang="zh">国家荣光(38)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721064600 +0800" stop="20260721065600 +0800">
+		<title lang="zh">中华古树：广州木棉王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721065600 +0800" stop="20260721072100 +0800">
+		<title lang="zh">东方新科幻(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721072100 +0800" stop="20260721080300 +0800">
+		<title lang="zh">远方的家</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721080300 +0800" stop="20260721085200 +0800">
+		<title lang="zh">跟着唐诗去旅行Ⅱ(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721085200 +0800" stop="20260721085900 +0800">
+		<title lang="zh">香港之味(8)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721085900 +0800" stop="20260721094700 +0800">
+		<title lang="zh">利剑·玫瑰(18)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721094700 +0800" stop="20260721103400 +0800">
+		<title lang="zh">利剑·玫瑰(19)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721103400 +0800" stop="20260721111400 +0800">
+		<title lang="zh">探索·发现</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721111400 +0800" stop="20260721120400 +0800">
+		<title lang="zh">秘境武当(2)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721120400 +0800" stop="20260721123200 +0800">
+		<title lang="zh">记住乡愁(17)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721123200 +0800" stop="20260721124200 +0800">
+		<title lang="zh">中华古树：广州木棉王</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721124200 +0800" stop="20260721130600 +0800">
+		<title lang="zh">东方新科幻(3)</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721130600 +0800" stop="20260721131600 +0800">
+		<title lang="zh">秘境之眼：夏日泰加林</title>
+	</programme>
+	<programme channel="CCTV-4K" start="20260721131600 +0800" stop="20260721140100 +0800">
+		<title lang="zh">远方的家</title>
 	</programme>
 	<channel id="CCTV-5">
 		<display-name lang="zh">CCTV-5</display-name>
