@@ -145,7 +145,7 @@ jobs:
       - name: Commit and push (optional)
         # 如果仓库允许 push，取消下面注释即可自动提交
         # 需要配置 permissions: contents: write
-        if: false   # 改成 true 开启自动提交
+        if: true   # 改成 true 开启自动提交
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
