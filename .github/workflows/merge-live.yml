@@ -1,154 +1,261 @@
-name: Merge live.txt into result files
+name: Merge live.txt into result files (smart insert)
 
 on:
-  # 手动触发
   workflow_dispatch:
-  # 定时触发（每天 UTC 2:00，可按需修改）
   schedule:
-    - cron: '0 2 * * *'
-  # 也可以在 push 到主分支时触发（可选）
-  # push:
-  #   branches: [ master, main ]
+    - cron: '0 2 * * *'   # 每天 UTC 02:00
+permissions: 
+ contents: write
 
 jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download live.txt
+      - name: Download sources
         run: |
-          mkdir -p tmp
+          mkdir -p tmp output
           curl -sL "https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/lib/live.txt" -o tmp/live.txt
-
-      - name: Download original result files
-        run: |
-          mkdir -p output
           curl -sL "https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/output/result.m3u" -o tmp/result.m3u
           curl -sL "https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/output/result.txt" -o tmp/result.txt
 
-      - name: Merge into result_new.txt and result_new.m3u
+      - name: Smart merge
         run: |
-          python3 << 'EOF'
-          import re
+          python3 << 'PY'
+          # -*- coding: utf-8 -*-
           from pathlib import Path
+          from collections import defaultdict, OrderedDict
+          import re
 
-          # ========== 读取文件 ==========
-          live_content = Path("tmp/live.txt").read_text(encoding="utf-8", errors="ignore")
-          result_txt = Path("tmp/result.txt").read_text(encoding="utf-8", errors="ignore")
-          result_m3u = Path("tmp/result.m3u").read_text(encoding="utf-8", errors="ignore")
+          # ========== 1. 解析 live.txt ==========
+          live_raw = Path("tmp/live.txt").read_text(encoding="utf-8", errors="ignore")
+          live_groups = OrderedDict()          # group_name -> list[(name, url)]
+          current = "未分类"
 
-          # ========== 解析 live.txt ==========
-          # 格式: 频道名,URL  或  分组,#genre#
-          channels = []          # [(name, url), ...]
-          current_group = "其他"
-
-          for line in live_content.splitlines():
+          for line in live_raw.splitlines():
               line = line.strip()
               if not line:
                   continue
-              if line.endswith(",#genre#"):
-                  current_group = line[:-8].strip()  # 去掉 ,#genre#
+              if line.endswith(",#genre#") or line.endswith(",#genre#,"):
+                  current = line.split(",")[0].strip()
+                  if current not in live_groups:
+                      live_groups[current] = []
                   continue
               if "," in line:
-                  # 只取第一个逗号前的名称和后面的 URL
                   name, url = line.split(",", 1)
                   name = name.strip()
                   url = url.strip()
-                  if name and url and url.startswith(("http://", "https://", "rtmp://", "rtsp://", "video://", "webview://")):
-                      channels.append((name, url, current_group))
+                  if name and url and re.match(r'^(https?|rtmp|rtsp|video|webview)://', url, re.I):
+                      live_groups.setdefault(current, []).append((name, url))
 
-          print(f"从 live.txt 解析到 {len(channels)} 个有效频道")
+          print(f"live.txt 共解析 {sum(len(v) for v in live_groups.values())} 个源，{len(live_groups)} 个分组")
 
-          # ========== 生成 result_new.txt ==========
-          # 先写原有内容，再追加 live 的内容（按分组）
-          txt_lines = result_txt.rstrip() + "\n\n"
+          # 扁平化：频道名 -> 所有 url 列表（去重）
+          live_by_name = defaultdict(list)
+          for g, items in live_groups.items():
+              for name, url in items:
+                  if url not in live_by_name[name]:
+                      live_by_name[name].append(url)
 
-          # 按分组整理 live 频道
-          from collections import defaultdict
-          group_map = defaultdict(list)
-          for name, url, group in channels:
-              group_map[group].append(f"{name},{url}")
+          # ========== 2. 分组名映射（live 分组 -> result 已有分组） ==========
+          GROUP_MAP = {
+              "央视": "📺央视频道",
+              "卫视": "📡卫视频道",
+              "港澳频道": "🌊港·澳·台",
+              "台湾频道": "🌊港·澳·台",
+              "极速港台": "🌊港·澳·台",
+              "极速港台2": "🌊港·澳·台",
+              "四季台湾": "🌊港·澳·台",
+              "四季台湾2": "🌊港·澳·台",
+              "四季台湾3": "🌊港·澳·台",
+              "广东": "☘️广东频道",
+              "浙江": "☘️浙江频道",
+              "江苏": "☘️江苏频道",
+              "上海": "☘️上海频道",
+              "北京": "☘️北京频道",
+              "福建": "☘️福建频道",
+              "湖南": "☘️湖南频道",
+              "湖北": "☘️湖北频道",
+              "四川": "☘️四川频道",
+              "山东": "☘️山东频道",
+              "安徽": "☘️安徽频道",
+              "河南": "☘️河南频道",
+              "河北": "☘️河北频道",
+              "辽宁": "☘️辽宁频道",
+              "吉林": "☘️吉林频道",
+              "黑龙江": "☘️黑龙江频道",
+              "陕西": "☘️陕西频道",
+              "山西": "☘️山西频道",
+              "云南": "☘️云南频道",
+              "贵州": "☘️贵州频道",
+              "广西": "☘️广西频道",
+              "海南": "☘️海南频道",
+              "甘肃": "☘️甘肃频道",
+              "新疆": "☘️新疆频道",
+              "内蒙古": "☘️内蒙古频道",
+              "宁夏": "☘️宁夏频道",
+              "青海": "☘️青海频道",
+              "天津": "☘️天津频道",
+              "重庆": "☘️重庆频道",
+          }
 
-          for group, items in group_map.items():
-              txt_lines += f"{group},#genre#\n"
-              # 去重（同一分组内相同 name+url 只保留一次）
-              seen = set()
-              for item in items:
-                  if item not in seen:
-                      seen.add(item)
-                      txt_lines += item + "\n"
-              txt_lines += "\n"
+          # ========== 3. 处理 result.txt ==========
+          txt_lines = Path("tmp/result.txt").read_text(encoding="utf-8", errors="ignore").splitlines()
 
-          Path("output/result_new.txt").write_text(txt_lines, encoding="utf-8")
-          print("已生成 output/result_new.txt")
+          # 收集 result 中已有的所有频道名（用于判断是否匹配）
+          result_channel_names = set()
+          for line in txt_lines:
+              if "," in line and not line.strip().endswith("#genre#"):
+                  n = line.split(",", 1)[0].strip()
+                  if n:
+                      result_channel_names.add(n)
 
-          # ========== 生成 result_new.m3u ==========
-          # 先写原有内容，再追加 live 转换后的 #EXTINF
-          m3u_lines = result_m3u.rstrip() + "\n"
+          # 构建新内容：按原顺序走，遇到匹配频道就在其后插入 live 同名源
+          new_txt = []
+          used_live_urls = set()          # 记录已经插入过的 (name, url)，避免重复
+          i = 0
+          while i < len(txt_lines):
+              line = txt_lines[i]
+              new_txt.append(line)
 
-          # 简单 logo 映射（可选，找不到就空）
-          def get_logo(name: str) -> str:
-              # 常见 CCTV / 卫视 logo（可自行扩展）
-              base = "https://raw.githubusercontent.com/fanmingming/live/main/tv/"
-              mapping = {
-                  "CCTV-1": "CCTV1.png",
-                  "CCTV-2": "CCTV2.png",
-                  "CCTV-3": "CCTV3.png",
-                  "CCTV-4": "CCTV4.png",
-                  "CCTV-5": "CCTV5.png",
-                  "CCTV-5+": "CCTV5+.png",
-                  "CCTV-6": "CCTV6.png",
-                  "CCTV-7": "CCTV7.png",
-                  "CCTV-8": "CCTV8.png",
-                  "CCTV-9": "CCTV9.png",
-                  "CCTV-10": "CCTV10.png",
-                  "CCTV-11": "CCTV11.png",
-                  "CCTV-12": "CCTV12.png",
-                  "CCTV-13": "CCTV13.png",
-                  "CCTV-14": "CCTV14.png",
-                  "CCTV-15": "CCTV15.png",
-                  "CCTV-16": "CCTV16.png",
-                  "CCTV-17": "CCTV17.png",
-              }
-              if name in mapping:
-                  return base + mapping[name]
-              # 简单尝试用频道名
-              return base + name + ".png"
+              # 当前行是频道行？
+              if "," in line and not line.strip().endswith("#genre#"):
+                  name = line.split(",", 1)[0].strip()
+                  if name in live_by_name:
+                      # 把 live 里同名但还没出现过的 url 全部插入
+                      for url in live_by_name[name]:
+                          key = (name, url)
+                          if key not in used_live_urls:
+                              # 检查是否已在本段出现过（简单防重）
+                              already = any(l.startswith(f"{name},{url}") for l in new_txt[-20:])
+                              if not already:
+                                  new_txt.append(f"{name},{url}")
+                                  used_live_urls.add(key)
+              i += 1
 
-          seen_m3u = set()
-          for name, url, group in channels:
-              key = f"{name}|{url}"
-              if key in seen_m3u:
-                  continue
-              seen_m3u.add(key)
+          # 把还没匹配到的 live 频道，按映射分组追加到末尾
+          remaining = defaultdict(list)
+          for name, urls in live_by_name.items():
+              for url in urls:
+                  if (name, url) not in used_live_urls:
+                      remaining[name].append(url)
 
-              logo = get_logo(name)
-              # 与原 result.m3u 风格保持一致
-              m3u_lines += f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}\n'
-              m3u_lines += f"{url}\n"
+          if remaining:
+              # 按 live 原分组组织剩余频道
+              for live_g, items in live_groups.items():
+                  to_add = []
+                  for name, url in items:
+                      if (name, url) in remaining.get(name, []) or (name in remaining and url in remaining[name]):
+                          if (name, url) not in used_live_urls:
+                              to_add.append((name, url))
+                              used_live_urls.add((name, url))
+                  if to_add:
+                      target_group = GROUP_MAP.get(live_g, f"{live_g},#genre#".replace(",#genre#", ""))
+                      # 如果 target_group 已存在于原文件，就不再新建抬头，直接追加到对应位置较难，这里简化：新建补充分组
+                      new_txt.append("")
+                      new_txt.append(f"{target_group if not target_group.endswith('#genre#') else target_group},#genre#" if not target_group.endswith("#genre#") else target_group)
+                      # 上面逻辑有点绕，统一写成：
+                      header = GROUP_MAP.get(live_g, live_g)
+                      new_txt.append(f"{header},#genre#")
+                      seen = set()
+                      for name, url in to_add:
+                          key = f"{name},{url}"
+                          if key not in seen:
+                              new_txt.append(key)
+                              seen.add(key)
 
-          Path("output/result_new.m3u").write_text(m3u_lines, encoding="utf-8")
-          print("已生成 output/result_new.m3u")
-          print(f"最终 m3u 共追加 {len(seen_m3u)} 个频道")
-          EOF
+          Path("output/result_new.txt").write_text("\n".join(new_txt) + "\n", encoding="utf-8")
+          print("result_new.txt 生成完成")
 
-      - name: Show generated files
+          # ========== 4. 处理 result.m3u ==========
+          m3u_raw = Path("tmp/result.m3u").read_text(encoding="utf-8", errors="ignore")
+          m3u_lines = m3u_raw.splitlines()
+
+          # 解析已有 m3u 的频道名集合
+          m3u_channel_names = set()
+          for line in m3u_lines:
+              if line.startswith("#EXTINF"):
+                  # 取最后一个逗号后的显示名
+                  m = re.search(r',(.+)$', line)
+                  if m:
+                      m3u_channel_names.add(m.group(1).strip())
+
+          new_m3u = []
+          used_m3u = set()
+          i = 0
+          while i < len(m3u_lines):
+              line = m3u_lines[i]
+              new_m3u.append(line)
+
+              if line.startswith("#EXTINF"):
+                  # 下一行应该是 url
+                  if i + 1 < len(m3u_lines):
+                      url_line = m3u_lines[i + 1]
+                      new_m3u.append(url_line)
+                      i += 1
+
+                      # 提取频道显示名
+                      m = re.search(r',(.+)$', line)
+                      if m:
+                          name = m.group(1).strip()
+                          if name in live_by_name:
+                              for url in live_by_name[name]:
+                                  key = (name, url)
+                                  if key not in used_m3u:
+                                      # 构造与原风格一致的 EXTINF
+                                      # 尽量复用原行的属性
+                                      logo_match = re.search(r'tvg-logo="([^"]*)"', line)
+                                      group_match = re.search(r'group-title="([^"]*)"', line)
+                                      logo = logo_match.group(1) if logo_match else ""
+                                      group = group_match.group(1) if group_match else "其他"
+                                      new_m3u.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
+                                      new_m3u.append(url)
+                                      used_m3u.add(key)
+              i += 1
+
+          # 剩余未匹配的频道追加到末尾（按映射分组）
+          remaining_m3u = []
+          for name, urls in live_by_name.items():
+              for url in urls:
+                  if (name, url) not in used_m3u:
+                      remaining_m3u.append((name, url))
+
+          if remaining_m3u:
+              # 简单按原 live 分组追加
+              for live_g, items in live_groups.items():
+                  to_add = [(n, u) for n, u in items if (n, u) not in used_m3u]
+                  if to_add:
+                      group_title = GROUP_MAP.get(live_g, live_g)
+                      for name, url in to_add:
+                          if (name, url) in used_m3u:
+                              continue
+                          logo = f"https://raw.githubusercontent.com/fanmingming/live/main/tv/{name}.png"
+                          new_m3u.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{group_title}",{name}')
+                          new_m3u.append(url)
+                          used_m3u.add((name, url))
+
+          Path("output/result_new.m3u").write_text("\n".join(new_m3u) + "\n", encoding="utf-8")
+          print("result_new.m3u 生成完成")
+          print(f"共使用 live 源 {len(used_m3u)} 个")
+          PY
+
+      - name: Preview
         run: |
-          ls -lh output/
-          echo "----- result_new.txt 前 30 行 -----"
-          head -n 30 output/result_new.txt
-          echo "----- result_new.m3u 前 30 行 -----"
+          echo "===== result_new.txt 前 40 行 ====="
+          head -n 40 output/result_new.txt
+          echo ""
+          echo "===== result_new.m3u 前 30 行 ====="
           head -n 30 output/result_new.m3u
+          echo ""
+          ls -lh output/
 
-      - name: Commit and push (optional)
-        # 如果仓库允许 push，取消下面注释即可自动提交
-        # 需要配置 permissions: contents: write
-        if: true   # 改成 true 开启自动提交
+      # 如需自动提交，取消下面注释并设置 permissions: contents: write
+      - name: Commit
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/result_new.m3u output/result_new.txt
-          git diff --staged --quiet || git commit -m "Update result_new.m3u and result_new.txt from live.txt"
-          git push
+           git config user.name "github-actions[bot]"
+           git config user.email "github-actions[bot]@users.noreply.github.com"
+           git add output/result_new.m3u output/result_new.txt
+           git diff --staged --quiet || git commit -m "chore: merge live.txt into result_new files"
+           git push
