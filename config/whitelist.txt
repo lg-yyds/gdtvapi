@@ -4,3 +4,5 @@
 # Filling in the channel name will directly retain the record to the final result, such as: CCTV-1,url, only fill in the interface address will be effective for all channels, multiple records newline input.
 192.168.99.151:38766
 https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/config/live.m3u
+https://zvv-193.pages.dev/live.m3u
+https://zv.xxll.kdns.fr/live.m3u
