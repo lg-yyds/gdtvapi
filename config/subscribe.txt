@@ -4,6 +4,8 @@
 https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/config/live.m3u
 https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt
 https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt
+https://zvv-193.pages.dev/live.m3u
+https://zv.xxll.kdns.fr/live.m3u
 https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/lib/live.txt
 https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/live.m3u
 https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/webtv.txt
