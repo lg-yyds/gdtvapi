@@ -1,6 +1,7 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/config/live.m3u
 https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt
 https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt
 https://raw.githubusercontent.com/dongtian00/box/refs/heads/520/lib/live.txt
