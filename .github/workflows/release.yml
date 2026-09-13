@@ -1,8 +1,7 @@
 name: Release
 on:
   workflow_dispatch:
-    branches:
-      - master
+    # branches 过滤器不能写在 workflow_dispatch 下，已移除
 
 jobs:
   build:
@@ -84,3 +83,21 @@ jobs:
           asset_path: dist/${{ env.name }}-v${{ env.version }}.zip
           asset_name: ${{ env.name }}-v${{ env.version }}.zip
           asset_content_type: application/zip
+
+      # ========== 新增：清理旧的工作流运行记录 ==========
+      - name: 🧹 清理旧的工作流运行记录
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Windows 上使用 PowerShell 调用 gh
+          $runs = gh run list --workflow="${{ github.workflow }}" --limit 100 --json databaseId | ConvertFrom-Json
+          $count = 0
+          foreach ($run in $runs) {
+            $count++
+            if ($count -gt 1) {
+              Write-Host "删除运行记录: $($run.databaseId)"
+              gh run delete $run.databaseId --yes 2>$null
+            }
+          }
+        shell: pwsh
